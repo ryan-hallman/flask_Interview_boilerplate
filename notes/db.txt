@@ -1,0 +1,15 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT,
+	first_name VARCHAR(255),
+	last_name VARCHAR(255),
+	address_id INT,
+	group_id INT,
+	phone VARCHAR(15),
+	email VARCHAR(255) NOT NULL,
+	confirmation TINYINT,
+	_password VARCHAR(255),
+	create_date datetime,
+	PRIMARY KEY (id),
+	UNIQUE (id),
+	CHECK (confirmation IN (0, 1))
+);

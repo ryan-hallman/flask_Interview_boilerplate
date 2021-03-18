@@ -1,0 +1,4 @@
+Version 0.01 - 2017-02-28
+  -Updated SQLachemy to use mysql
+  -Gmail is working and relaying through hlmn.co
+  -Successfully created user and logged in.
